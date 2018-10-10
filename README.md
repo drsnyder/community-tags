@@ -59,17 +59,17 @@ community. Output:
     "community": "babylon5",
     "tag": "media",
     "values": [
-    "tv"
+      "tv"
     ]
   },
   {
     "community": "babylon5",
     "tag": "gnre",
     "values": [
-    "drama",
-    "action",
-    "adventure",
-    "scifi"
+      "drama",
+      "action",
+      "adventure",
+      "scifi"
     ]
   },
 ...
