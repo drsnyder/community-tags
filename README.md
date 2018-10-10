@@ -34,10 +34,48 @@ lein repl
 
 ### Resources
 
-* http://localhost:3000/tag/age/communities - for a list of communities associated with
-  the age tag.
-* http://localhost:3000/community/babylon5/tags - for a list of tags associated with the babylon5
-  community.
+
+http://localhost:3000/tag/age/communities - for a list of communities associated with
+the age tag. Output:
+```
+[
+  "icarly",
+  "ptbrstevenuniverso",
+  "wingsoffirefanon",
+  "bendyandtheinkmachine",
+  "nameofthewind",
+  "jorvikipedia",
+  "mazerunner",
+  "24",
+  ...
+]
+```
+
+http://localhost:3000/community/babylon5/tags - for a list of tags associated with the babylon5
+community. Output:
+```
+[
+  {
+    "community": "babylon5",
+    "tag": "media",
+    "values": [
+    "tv"
+    ]
+  },
+  {
+    "community": "babylon5",
+    "tag": "gnre",
+    "values": [
+    "drama",
+    "action",
+    "adventure",
+    "scifi"
+    ]
+  },
+...
+]
+```
+
 
 ## License
 
